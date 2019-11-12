@@ -1,0 +1,106 @@
+body{
+  background-color: lightcoral;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#info{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#info{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#header{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+#header2{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+#header3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+#scoreDisplay{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#subheader{
+    text-align: center;
+    font-size: 18px;
+}
+
+#text{
+    text-align: left;
+    font-size: 17px;
+}
+
+#text2{
+    text-align: center;
+    font-size: 17px;
+}
+
+#text2{
+    text-align: center;
+    font-size: 12px;
+}
+
+#list{
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+#harvard{
+    display: block;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#button1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#button2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
